@@ -24,7 +24,7 @@ El dataset a ser utilizado en esta práctica ha sido obtenido de la página de K
 
 Este dataset contiene información para predecir si un paciente tiene la probabilidad de sufrir un accidente cerebral vascular (AVC) basado en ciertas características como género, edad, ciertas enfermedades, etc.
 
-De acuerdo a la Organización Mundial de la Salud, las enfermedades cardiovasculares son la principal causa de muerte en todo el mundo, dentro de las cuales se encuentran los ataques al coración y los AVC. https://www.who.int/es/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
+De acuerdo a la Organización Mundial de la Salud, las enfermedades cardiovasculares son la principal causa de muerte en todo el mundo, dentro de las cuales se encuentran los ataques al corazón y los AVC. https://www.who.int/es/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)
 
 Es importante este dataset ya que permite analizar si cierto grupo de pacientes tiene mayor incidencia a sufrir AVC en comparación con otro y en base a esta predisposición se pueden definir políticas de medicina preventiva para evitar la ocurrencia de un derrame.
 
@@ -71,7 +71,7 @@ Podemos apreciar que la variable bmi tiene valores N/A que deben ser saneados.
 colSums(is.na(df_stroke))
 ```
 
-Se puede apreciar que no existen valores NA.
+Se puede apreciar que no existen valores nulos (NA).
 
 
 ```{r message= FALSE, warning=FALSE}
