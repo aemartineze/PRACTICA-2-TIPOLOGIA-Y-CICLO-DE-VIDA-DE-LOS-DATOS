@@ -53,8 +53,6 @@ Para efectos de este análisis de van a utilizar todas las variables proporciona
 ******
 
 ******
-# Análisis de los datos
-******
 ## . ¿Los datos contienen ceros o elementos vacíos? ¿Cómo gestionarías cada uno de estos casos? 
 
 ******
