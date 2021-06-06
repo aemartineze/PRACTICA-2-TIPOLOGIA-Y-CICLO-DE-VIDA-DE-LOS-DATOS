@@ -171,7 +171,7 @@ Una vez comprobamos que con valores altos los datos no siguen con la tendencia n
 
 Creamos diversos diagramas de caja para observar la distribución de las variables 'Age', 'avg_glucose_level' y 'bmi' respecto de la variable ‘stroke‘
 
-```{r message= FALSE, warning=FALSE}
+```{r message= FALSE, warning=FALSE} 
 #Gráficos
 boxplot(formula = age ~ stroke, data =  df_stroke,  main = "Age vs Stroke")
 ```
